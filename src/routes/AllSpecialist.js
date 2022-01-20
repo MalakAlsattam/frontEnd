@@ -17,7 +17,7 @@ export default class AllSpecialist extends Component {
         const log = localStorage.getItem("logIn");
         this.setState.login = log;
         console.log(log)
-        axios.get("api/specialist").then(response => {
+        axios.get("https://help-hope-backend.herokuapp.com/api/specialist").then(response => {
             const specialist = response.data
             this.setState({ specialist });
 
