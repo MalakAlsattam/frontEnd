@@ -1,0 +1,29 @@
+.card-master {
+    display: grid;
+    justify-content: center;
+  
+    
+    padding: 10px; grid-column-gap: 50px;
+   
+  
+  }
+.video{height: 900;}
+  
+ .card-body{
+    top: 70%;
+  padding: 74px 20px;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.5); 
+
+ }
+
+ .card-text{color: whitesmoke;}
+ .card-title{color: whitesmoke;
+text-shadow: rgb(22, 21, 21);}
+h1{text-align: center;}
+.image{left: 10px;}
+
+.last-thing{
+  background: rgba(0, 0, 0, 0.5); 
+  text-align: center;
+}
