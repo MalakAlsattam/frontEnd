@@ -72,7 +72,7 @@ export default function LogInPage() {
     console.log("inside deleteHandler")
     console.log(userName)
 
-    axios.delete(`api/user/delete/${userName}`)
+    axios.delete(`https://help-hope-backend.herokuapp.com/api/user/delete/${userName}`)
       .then(() => setmyUsername("Delete successful"));
   }
 
