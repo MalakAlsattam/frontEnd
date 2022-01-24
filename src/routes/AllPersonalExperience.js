@@ -32,7 +32,7 @@ export default class AllPersonalExperience extends Component {
     deletepersonalExperience(id) {
 
         console.log("inside deleteHandler")
-        axios.delete(`https://help-hope-backend.herokuapp.com/api/PersonalEx/delete/${id}`)
+        axios.delete(`https://help-hope-backend.herokuapp.com/api/PEx/delete/${id}`)
             .then(res => {
                 const personalExperience = this.state.personalExperience.filter(item => item.id !== id);
                 this.setState({ personalExperience });
